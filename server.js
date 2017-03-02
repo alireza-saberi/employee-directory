@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2017-03-02 10:59:49
 * @Last Modified by:   Ali
-* @Last Modified time: 2017-03-02 11:39:31
+* @Last Modified time: 2017-03-02 13:16:54
 */
 
 'use strict';
@@ -56,5 +56,5 @@ app.use(morgan('dev'));
 
 
 /******** Routing ********/
-app.use(express.static(__dirname + '/app'));
+app.use(express.static(__dirname + '/dist'));
 require('./routes/route.js')(app, swaggerSpec);

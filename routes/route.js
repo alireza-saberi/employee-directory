@@ -2,7 +2,7 @@
 * @Author: Ali
 * @Date:   2017-03-02 11:29:46
 * @Last Modified by:   Ali
-* @Last Modified time: 2017-03-02 11:44:01
+* @Last Modified time: 2017-03-02 13:17:17
 */
 
 module.exports = (app, swaggerSpec) => {
@@ -22,7 +22,7 @@ module.exports = (app, swaggerSpec) => {
      *         description: index.html file
      */
     app.get('*', (req, res) => {
-      res.sendFile(path.join(__dirname + '/index.html'));
+      res.sendFile(path.join(__dirname + 'dist/index.html'));
     });
 
     // serve swagger
