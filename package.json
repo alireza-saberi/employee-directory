@@ -13,6 +13,14 @@
     "gulp-imagemin": "^3.1.1",
     "gulp-jsmin": "^0.1.5",
     "gulp-processhtml": "^1.1.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^1.9.2"
   }
 }
